@@ -1,0 +1,34 @@
+﻿
+1、宏定义
+shortcut：#ifn
+
+#ifndef __$FILE_BASE_UPPER$_$FILE_EXT_UPPER$__
+#define __$FILE_BASE_UPPER$_$FILE_EXT_UPPER$__
+
+#endif // __$FILE_BASE_UPPER$_$FILE_EXT_UPPER$__
+
+2、单行注释
+shortcut：///
+
+///< 
+
+3、文件头
+shortcut：/**h
+
+/**
+* @Copyright(c) $YEAR$,visionfocus,All rights reserved.
+* @file		$FILE_BASE$.$FILE_EXT$
+* @brief	
+* @author	zhangzhiming
+* @date		$YEAR$-$MONTH$-$DAY$
+*/
+
+4、函数定义
+shortcut：/**f
+
+/** 
+*   @brief 
+*   @param [in]	
+*   @param [out] 
+*   @return 
+*/
